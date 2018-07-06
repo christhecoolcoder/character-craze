@@ -1,0 +1,76 @@
+body{
+
+    background: url(http://bloody-disgusting.com/wp-content/uploads/2016/06/RE2RM_BD1.jpg);
+    background-size: 100%;
+}
+
+.main{
+    
+    padding-bottom: 50px;
+    position: relative;
+
+    
+}
+
+img{
+    height: 400px;
+    width: auto;
+  
+}
+
+#pic1{
+    position: absolute;
+   margin-left: 40%;
+   display: none;
+}
+
+#pic2{
+position: absolute;
+margin-left: 40%;
+display: none;
+
+}
+
+
+h1{
+    padding-top: 30px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 60px;
+    color: red;
+    text-shadow: 8px 8px black;
+    
+   
+}
+
+input{
+    margin-top: 60px;
+    
+}
+
+
+.scorebox{
+
+color: yellow;
+display: inline-block;
+
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    align-content: right;
+    background-color: black;
+}
+
+#maincontainer{
+    height: 400px;
+    width: auto;
+    
+}
+
+#bottomdiv{
+    height: 100px;
+    width: auto;
+    
+}

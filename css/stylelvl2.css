@@ -1,0 +1,72 @@
+body{
+
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/3a/f2/20/3af220136fec2b504abc08ee828d959a.png);
+    background-size: 100%;
+}
+
+.main{  
+    padding-bottom: 50px;
+    position: relative;
+    
+}
+
+img{
+    height: 400px;
+    width: auto; 
+}
+
+#pic1{
+    position: absolute;
+   margin-left: 40%;
+   display: none;
+}
+
+#pic2{
+    position: absolute;
+    margin-left: 40%;
+    display: none;
+}
+
+
+h1{
+    padding-top: 30px;
+    font-family: impact;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    text-shadow: 8px 8px red;  
+}
+
+input{
+    margin-top: 60px;   
+}
+
+
+.scorebox{
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px black;
+    display: inline-block;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    align-content: right;
+    background-color: black;
+}
+
+#maincontainer{
+    height: 400px;
+    width: auto;   
+}
+
+#bottomdiv{
+    height: 100px;
+    width: auto;   
+}
+
+#level{
+    font-family: dark flame;
+    letter-spacing: 10px;
+}

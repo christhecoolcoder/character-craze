@@ -1,0 +1,70 @@
+
+body{
+background: url(http://i1.wp.com/shoryuken.com/wp-content/uploads/2016/06/mvc2_roster_750.jpg?fit=750%2C400&resize=750%2C400);
+background-size: 100%;
+}
+
+a {   
+    text-decoration: none;
+}
+
+a:hover {     
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#main{   
+    height: 100px;
+    width: auto;
+    background-color: transparent;    
+}
+
+@keyframes click {
+
+0% {
+    color: white;
+}
+
+100% {
+    color: red;
+}
+
+}
+
+#titlebox{
+    height: 290px;
+    width: auto;
+   
+}
+
+#title{
+   
+    font-family: videostar;
+    font-weight: bold;
+    font-size: 140px;
+    color: black;
+    text-shadow: 15px 15px white;   
+    height: 5px; 
+}
+
+#descriptbox{
+    height: 100px;
+    width: auto;
+}
+
+p{
+    color: red;
+    text-shadow: 10px 8px black;
+    font-size: 30px;
+    font-family: impact;
+}
+
+#click{
+    font-family: impact;
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+    text-shadow: 8px 8px black; 
+    animation: click .50s infinite ease-in-out forwards;
+    
+}
