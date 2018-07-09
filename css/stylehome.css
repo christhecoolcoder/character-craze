@@ -1,6 +1,6 @@
 
 body{
-background: url(http://i1.wp.com/shoryuken.com/wp-content/uploads/2016/06/mvc2_roster_750.jpg?fit=750%2C400&resize=750%2C400);
+background: url(../images/homeback.jpg);
 background-size: 100%;
 }
 
@@ -48,12 +48,14 @@ a:hover {
 }
 
 #descriptbox{
-    height: 100px;
-    width: auto;
+    height: 110px;
+    width: 600px;
+    background-color: black;
 }
 
 p{
-    color: red;
+    letter-spacing: 2px;
+    color:white;
     text-shadow: 10px 8px black;
     font-size: 30px;
     font-family: impact;

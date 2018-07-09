@@ -5,37 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/stylelvl3.css">
+    <link rel="tab icon" href="../images/tabicon.ico">
     <title>Character Craze</title>
 </head>
-
 <body>
 
-    <center>
-        
-<h1 id='level'> LEVEL THREE </h1>
-
-    <div class='scorebox'>
-        <h2> SCORE: </h2>   
-    </div>
-
-    <div class='scorebox'>
-        <H2 id='score'> 40 </H2>
-    </div>
-
-<div id='maincontainer'>  
-     <center>
-        <div id="pic2">
-            <img src="../images/ryu.jpg" data-name='leon' height="500" width="700">
+        <center>
+            
+    <h1> LEVEL THREE </h1>
+            
+        <div class='scorebox'>
+            <h2> SCORE: </h2>   
         </div>
-    </center>   
-</div>    
-
-<div id='bottomdiv'>
-    <input id='inputbox' type="text">
-    <input id='inputbutton' onclick="showchar()" type="submit">
-</div>
-
-<script src="../javascript/scriptlvl3.js"></script> 
-
+    
+        <div class='scorebox'>
+            <H2 id='score'> 40 </H2>
+        </div>
+    
+    <div id='maincontainer'>  
+        
+        <div id='prevlvl'><a href="leveltwo.html">
+            <h1 class='lvlbuttons'>Previous Level</h1>
+        </a></div>
+    
+        <div id="pic2">
+            <img src="../images/ryu.png" data-name='leon' height="500" width="700">
+        </div>
+        <div id="pic1">
+            <img src="../images/ryuedit.png" data-name='leon' height="500" width="700">
+        </div>
+    
+        <div id='nextlvl'><a href="levelfour.html">
+            <h1 class='lvlbuttons'>Next Level</h1>
+        </a></div>
+          
+    </div>    
+    
+       
+    <div id='bottomdiv'>
+    
+        <div id='hintdiv' onclick="hint()">
+            <h1>HINT</h1>
+        </div>
+    
+        <div id='inputdiv'>
+            <h1 id='answertitle'>answer here</h1>
+            <input id='inputbox' type="text">
+            <input id='inputbutton' onclick="showchar()" type="submit">
+        </div>
+    
+        <div id='hintdiv2'>
+        
+        </div>
+    </div>
+    
+    <script src="../javascript/scriptlvl3.js"></script>    
+    
     </body>
-</html>
+    </html>

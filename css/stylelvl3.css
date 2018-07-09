@@ -1,7 +1,7 @@
 
 body{
 
-    background: url(https://i.ytimg.com/vi/tEA-kf9utek/maxresdefault.jpg);
+    background: url(../images/lvl3back.jpg);
     background-size: 100%;
 }
 
@@ -15,47 +15,60 @@ body{
 
 img{
     height: 400px;
-    width: auto;
-  
+    width: auto; 
 }
 
 #pic1{
     position: absolute;
    margin-left: 40%;
-   display: none;
+  display: block;
 }
 
 #pic2{
-position: absolute;
-margin-left: 40%;
-display: none;
+    
+    position: absolute;
+    margin-left: 40%;
+    display: none;
+}
 
+#nextlvl{
+    height: 400px;
+    width: auto;
+    
+    flex:1;
+}
+
+#prevlvl{ 
+    height: 400px;
+    width: auto;
+    
+    flex:1; 
+}
+
+.lvlbuttons{
+    padding-top:60px;
 }
 
 
-h1{
-    padding-top: 30px;
-    font-family: impact;
+h1{ 
+    font-family: dastreets;
     font-weight: bold;
     font-size: 60px;
-    color: white;
-    text-shadow: 8px 8px red;
-    
-   
+    color: red;
+    text-shadow: 8px 8px black;   
 }
 
 input{
-    margin-top: 60px;
-    
+     
+    outline: none; 
 }
 
 
-.scorebox{
-font-size: 30px;
-color: white;
-text-shadow: 5px 5px black;
-display: inline-block;
-
+.scorebox{  
+    color: white;
+    letter-spacing: 4px;
+    display: inline-block;
+    
 }
 
 button{
@@ -63,21 +76,61 @@ button{
     width: 100px;
     align-content: right;
     background-color: black;
+    
 }
+
 
 #maincontainer{
     height: 400px;
     width: auto;
-    
+    display: flex;  
 }
 
 #bottomdiv{
     height: 100px;
     width: auto;
+    display: flex;
+}
+
+#inputdiv{
+    height: 80px;
+    width: 300px;
+    flex: 1;   
     
 }
 
-#level{
-    font-family: da streets;
-    letter-spacing: 10px;
+#hintdiv{
+    height: 80px;
+    width: 100px;
+    flex: 1;
+    padding-right: 80px;
+    
+}
+
+#hintdiv2{
+    height: 80px;
+    width: 100px;
+    flex: 1;
+    padding-right: 80px;
+    
+}
+
+#hintdiv:hover{
+    cursor: pointer;
+}
+
+a {   
+    text-decoration: none;
+}
+
+a:hover {     
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#answertitle{
+    font-family: dastreets;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
 }

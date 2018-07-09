@@ -1,60 +1,97 @@
 body{
 
-    background: url(http://www.hitfizz.com/wp-content/uploads/2018/04/infinity_stones_by_arturogc-dap3q5o-1024x576-1024x585.png);
+    background: url(../images/lvl5back.png);
     background-size: 100%;
 }
 
 .main{
     
     padding-bottom: 50px;
-    position: relative;
-
-    
+    position: relative;  
 }
 
 img{
     height: 400px;
-    width: auto;
-  
+    width: 500px; 
+    margin-right: 100px;
+    background-color: white;
+    border-radius: 20%;
+    border: 5px solid black;
 }
 
 #pic1{
     position: absolute;
-   margin-left: 40%;
-   display: none;
+   margin-left: 32%;
+   display: block;
 }
 
 #pic2{
-position: absolute;
-margin-left: 40%;
-display: none;
+    
+    position: absolute;
+    margin-left: 32%;
+    display: none;
+}
 
+#nextlvl{
+    height: 400px;
+    width: auto;
+    
+    flex:1;
+}
+
+#prevlvl{ 
+    height: 100px;
+    width: auto;
+    padding-top: 150px;
+    padding-right: 500px;
+    flex:1; 
+    
+    
+}
+
+.lvlbuttons{
+    
+    border-radius: 20%;
+    border: 5px solid red;
+    background-color: black;
 }
 
 
-h1{
-    padding-top: 30px;
-    font-family: impact;
+h1{ 
+    font-family: galaxy1;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     color: white;
-    text-shadow: 8px 8px red;
-    
-   
+    width: 300px;
+    text-shadow: 5px 5px red;  
+    border: 5px solid red;
+    background-color: black; 
+    border-radius: 20%;
+}
+
+#maintitle{
+    font-family: galaxy1;
+    width: 450px;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px red;  
+    border: 5px solid red;
+    background-color: black; 
+    border-radius: 20%;
 }
 
 input{
-    margin-top: 60px;
-    
+     
+    outline: none; 
 }
 
 
-.scorebox{
-font-size: 30px;
-color: white;
-text-shadow: 5px 5px black;
-display: inline-block;
-
+.scorebox{  
+    color: white;
+    letter-spacing: 4px;
+    display: inline-block;
+    
 }
 
 button{
@@ -62,21 +99,87 @@ button{
     width: 100px;
     align-content: right;
     background-color: black;
+    
 }
+
 
 #maincontainer{
     height: 400px;
     width: auto;
-    
+    display: flex;  
 }
 
 #bottomdiv{
     height: 100px;
     width: auto;
+    display: flex;
+}
+
+#inputdiv{
+    height: 80px;
+    width: 300px;
+    flex: 1;   
     
 }
 
-#level{
+#hintdiv{
+    height: 80px;
+    width: 100px;
+    flex: 1;
+    padding-right: 80px;
+    
+}
+
+#hintdiv2{
+    height: 80px;
+    width: 100px;
+    flex: 1;
+    padding-right: 80px;
+    
+    
+}
+
+#hintdiv:hover{
+    cursor: pointer;
+}
+
+a {   
+    text-decoration: none;
+}
+
+a:hover {     
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#answertitle{
     font-family: galaxy1;
-    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    width: 300px;
+
+}
+
+p{  
+    font-family: galaxy1;
+    height: 100px;
+    width: 450px;
+    font-size: 35px;
+    color: white;
+    padding-left: 70px;
+    text-shadow: 5px 5px red; 
+    padding-top: 130px;  
+    
+}
+
+#hinttitle{
+    font-family: galaxy1;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    width: 200px;
+    border: 5px solid red;
+    background-color: black; 
+    border-radius: 20%;
 }

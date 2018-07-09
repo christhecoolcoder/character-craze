@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Character Craze</title>
     <link rel="stylesheet" href="../css/stylelvl1.css">
+    <link rel="tab icon" href="../images/tabicon.ico">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
     <center>
         
 <h1> LEVEL ONE </h1>
-
+        
     <div class='scorebox'>
         <h2> SCORE: </h2>   
     </div>
@@ -24,23 +25,40 @@
 
 <div id='maincontainer'>  
     
-    <center>
-        <div id="pic2">
-            <img src="../images/leon.jpg" data-name='leon' height="500" width="700">
-        </div>
-    </center>   
+    <div id='prevlvl'><a href="../index.html">
+        <h1 class='lvlbuttons'>Previous Level</h1>
+    </a></div>
+
+    <div id="pic2">
+        <img src="../images/leon.png" data-name='leon' height="500" width="700">
+    </div>
+    <div id="pic1">
+        <img src="../images/leonedit.png" data-name='leon' height="500" width="700">
+    </div>
+
+    <div id='nextlvl'><a href="leveltwo.html">
+        <h1 class='lvlbuttons'>Next Level</h1>
+    </a></div>
+      
 </div>    
 
    
 <div id='bottomdiv'>
-    <input id='inputbox' type="text">
-    <input id='inputbutton' onclick="showchar()" type="submit">
+
+    <div id='hintdiv' onclick="hint()">
+        <h1>HINT</h1>
+    </div>
+
+    <div id='inputdiv'>
+        <h1 id='answertitle'>answer here</h1>
+        <input id='inputbox' type="text">
+        <input id='inputbutton' onclick="showchar()" type="submit">
+    </div>
+
+    <div id='hintdiv2'>
+    
+    </div>
 </div>
-
-<div id="signin" class="modal">
-
-    <div class="modal-content">
-    <span class="close">&times;</span>
 
 <script src="../javascript/scriptlvl1.js"></script>    
 

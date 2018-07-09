@@ -1,7 +1,8 @@
 body{
 
-    background: url(https://s-media-cache-ak0.pinimg.com/originals/3a/f2/20/3af220136fec2b504abc08ee828d959a.png);
-    background-size: 100%;
+    background: url(../images/lvl2back.png);
+    background-size: 70%;
+    background-position: top;
 }
 
 .main{  
@@ -15,38 +16,68 @@ img{
     width: auto; 
 }
 
+#lvltitle{
+    text-decoration: underline;
+    color: white;
+}
+
+#hinttitle{
+    color: white;
+}
+
 #pic1{
     position: absolute;
    margin-left: 40%;
-   display: none;
+   display: block;
 }
 
 #pic2{
+    
     position: absolute;
     margin-left: 40%;
     display: none;
 }
 
+#nextlvl{
+    height: 400px;
+    width: auto;
+    
+    flex:1;
+}
 
-h1{
-    padding-top: 30px;
-    font-family: impact;
+#prevlvl{ 
+    height: 400px;
+    width: auto;
+    
+    flex:1; 
+}
+
+.lvlbuttons{
+    padding-top:60px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+
+h1{ 
+    font-family: darkflame;
     font-weight: bold;
     font-size: 60px;
-    color: white;
-    text-shadow: 8px 8px red;  
+    color: red;
+    text-shadow: 5px 5px red;    
 }
 
 input{
-    margin-top: 60px;   
+     
+    outline: none; 
 }
 
 
-.scorebox{
-    font-size: 30px;
+.scorebox{  
     color: white;
-    text-shadow: 5px 5px black;
+    letter-spacing: 4px;
     display: inline-block;
+    
 }
 
 button{
@@ -54,19 +85,62 @@ button{
     width: 100px;
     align-content: right;
     background-color: black;
+    
 }
+
 
 #maincontainer{
     height: 400px;
-    width: auto;   
+    width: auto;
+    display: flex;  
 }
 
 #bottomdiv{
     height: 100px;
-    width: auto;   
+    width: auto;
+    display: flex;
 }
 
-#level{
-    font-family: dark flame;
-    letter-spacing: 10px;
+#inputdiv{
+    height: 80px;
+    width: 300px;
+    flex: 1;   
+    
+}
+
+#hintdiv{
+    height: 80px;
+    width: 100px;
+    flex: 1;
+    padding-right: 80px;
+    
+}
+
+#hintdiv2{
+    height: 80px;
+    width: 100px;
+    flex: 1;
+    padding-right: 80px;
+    
+}
+
+#hintdiv:hover{
+    cursor: pointer;
+}
+
+a {   
+    text-decoration: none;
+}
+
+a:hover {     
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#answertitle{
+    font-family: darkflame;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px red; 
 }
