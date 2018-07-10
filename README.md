@@ -1,5 +1,7 @@
 ![Screenshot here](https://github.com/christhecoolcoder/character-craze/blob/master/screenshot.png)
 
+https://vimeo.com/279290941
+
 ## What is Character Craze?
 Character Craze is a video game trivia game the challanges your knowledge of popular video game characters. To prove youre the ultimate gamer you must complete each stage by entering the correct name for the silhouette of the character on screen. 5 incorrect guesses and you lose and must restart the game.
 
