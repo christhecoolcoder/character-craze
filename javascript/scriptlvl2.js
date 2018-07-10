@@ -12,6 +12,7 @@ let scoreboard = document.querySelector('#score');
 const audioright = new Audio('../sounds/morriganwin.mp3');
 const audiowrong = new Audio('../sounds/wrong.mp3');
 const audiohint = new Audio('../sounds/morriganhint.mp3');
+const youlose = new Audio('../sounds/youlose.mp3');
 let level = document.querySelector('#nextlvl')
 let score = 0;
 
@@ -44,6 +45,7 @@ function showchar(){
             if(score === -50){
                 addElement2();
                 endgame();
+                youlose.play();
             
                  }  
     }

@@ -17,6 +17,7 @@ let scoreboard = document.querySelector('#score');
 const audioright = new Audio('../sounds/thanoswin.mp3');
 const audiowrong = new Audio('../sounds/wrong.mp3');
 const audiohint = new Audio('../sounds/thanoshint.mp3');
+const youlose = new Audio('../sounds/youlose.mp3');
 let score = 0;
 
 function endgame(){
@@ -47,6 +48,7 @@ function showchar(){
             if(score === -50){
                 addElement2();
                 endgame();
+                youlose.play();
                  }    
 
     }
