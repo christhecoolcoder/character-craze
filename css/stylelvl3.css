@@ -4,24 +4,36 @@ body{
     background: url(../images/lvl3back.jpg);
     background-size: 100%;
 }
-
 .main{
     
     padding-bottom: 50px;
-    position: relative;
-
-    
+    position: relative;  
 }
 
 img{
     height: 400px;
-    width: auto; 
+    width: 270px;
+    margin-right: 100px;
+    background-color: white;
+    border-radius: 20%;
+    border: 5px solid red;
+}
+
+#loserdiv{
+    height: 100px;
+    width: 380px;
+    position: absolute;
+    padding-top: 150px;
+    font-size: 100px;
+    background: none;
+    border: none;
+   
 }
 
 #pic1{
     position: absolute;
    margin-left: 40%;
-  display: block;
+   display: block;
 }
 
 #pic2{
@@ -34,28 +46,53 @@ img{
 #nextlvl{
     height: 400px;
     width: auto;
-    
+    padding-top: 150px;
     flex:1;
+    visibility: hidden;
 }
 
 #prevlvl{ 
-    height: 400px;
-    width: auto;
-    
+    height: 100px;
+    width: 200px;
+    padding-top: 150px;
+    padding-right: 500px;
     flex:1; 
+
+    
+    
 }
 
 .lvlbuttons{
-    padding-top:60px;
+    
+    border-radius: 20%;
+    border: 5px solid red;
+    background-color: white;
 }
 
 
 h1{ 
     font-family: dastreets;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     color: red;
-    text-shadow: 8px 8px black;   
+    width: 240px;
+    text-shadow: 3px 3px black;  
+    border: 5px solid red;
+    background-color: white; 
+    border-radius: 20%;
+}
+
+#maintitle{
+    font-family: dastreets;
+    text-decoration: underline;
+    width: 300px;
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+    text-shadow: 5px 5px red;  
+    border: 5px solid red;
+    background-color: white; 
+    border-radius: 20%;
 }
 
 input{
@@ -75,7 +112,7 @@ button{
     height: 100px;
     width: 100px;
     align-content: right;
-    background-color: black;
+    background-color: white;
     
 }
 
@@ -109,10 +146,9 @@ button{
 
 #hintdiv2{
     height: 80px;
-    width: 100px;
+    width: 500px;
     flex: 1;
-    padding-right: 80px;
-    
+    padding-right: 80px; 
 }
 
 #hintdiv:hover{
@@ -131,6 +167,32 @@ a:hover {
 #answertitle{
     font-family: dastreets;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
+    color: red;
+    width: 250px;
+
+}
+
+p{  
+    font-family: dastreets;
+    height: 100px;
+    width: 450px;
+    font-size: 35px;
     color: white;
+    padding-left: 70px;
+    text-shadow: 5px 5px red; 
+    padding-top: 130px;  
+    
+}
+
+#hinttitle{
+    font-family: dastreets;
+    font-weight: bold;
+    font-size: 50px;
+    color: red;
+    width: 100px;
+    border: 5px solid red;
+    background-color: white; 
+    text-shadow: 4px 4px black; 
+    border-radius: 20%;
 }

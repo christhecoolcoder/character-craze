@@ -1,7 +1,7 @@
 body{
 
-    background: url(../images/lvl4back.jpg);
-    background-size: 100%;
+    background: url(../images/lvl4back.png);
+    background-size: 50%;
 }
 
 .main{
@@ -37,16 +37,26 @@ img{
     width: auto;
     padding-top: 150px;
     flex:1;
+    visibility: hidden;
 }
 
 #prevlvl{ 
     height: 100px;
-    width: auto;
+    width: 200px;
     padding-top: 150px;
     padding-right: 500px;
-    flex:1; 
-    
-    
+    flex:1;   
+}
+
+#loserdiv{
+    height: 100px;
+    width: 380px;
+    position: absolute;
+    padding-top: 150px;
+    font-size: 100px;
+    background: none;
+    border: none;
+   
 }
 
 .lvlbuttons{
@@ -71,13 +81,14 @@ h1{
 
 #maintitle{
     font-family: galaxyforce;
-    width: 450px;
+    text-decoration: underline;
+    width: 300px;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     text-shadow: 5px 5px red;  
     border: 5px solid red;
-    background-color: white; 
+    background-color: black; 
     border-radius: 20%;
 }
 
@@ -132,11 +143,9 @@ button{
 
 #hintdiv2{
     height: 80px;
-    width: 100px;
+    width: 500px;
     flex: 1;
-    padding-right: 80px;
-    
-    
+    padding-right: 80px; 
 }
 
 #hintdiv:hover{
@@ -157,7 +166,7 @@ a:hover {
     font-weight: bold;
     font-size: 50px;
     color: black;
-    width: 300px;
+    width: 250px;
 
 }
 
@@ -177,9 +186,10 @@ p{
     font-family: galaxyforce;
     font-weight: bold;
     font-size: 50px;
-    color: white;
-    width: 200px;
-    border: 5px solid red;
-    background-color: white; 
+    color: red;
+    width: 100px;
+    border: 5px solid black;
+    background-color: grey; 
+    text-shadow: 4px 4px black; 
     border-radius: 20%;
 }

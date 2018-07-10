@@ -1,8 +1,8 @@
-let clicksound = document.querySelector('#click');
-const audiohint = new Audio('sounds/leonhint.mp3');
+const clicksound = new Audio('sounds/leonwin.mp3');
+
 
 function click(){
 
-    audiohint.play();
+    clicksound.play();
 
 }

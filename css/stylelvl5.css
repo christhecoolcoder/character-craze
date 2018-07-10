@@ -161,6 +161,17 @@ a:hover {
 
 }
 
+#loserdiv{
+    height: 100px;
+    width: 380px;
+    position: absolute;
+    padding-top: 150px;
+    font-size: 100px;
+    background: none;
+    border: none;
+   
+}
+
 p{  
     font-family: galaxy1;
     height: 100px;

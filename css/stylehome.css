@@ -1,7 +1,8 @@
 
 body{
-background: url(../images/homeback.jpg);
+background: url(../images/homebacknew.png);
 background-size: 100%;
+
 }
 
 a {   
@@ -31,34 +32,65 @@ a:hover {
 
 }
 
+@keyframes title {
+
+    0% {
+        height: 0;
+    }
+    
+    100% {
+        height: 300px;
+    }
+    
+    }
+
+@keyframes titlemain {
+
+    0% {
+        font-size: 0;
+    }
+        
+    100% {
+        font-size: 140px;
+    }
+        
+    }
+
 #titlebox{
-    height: 290px;
-    width: auto;
-   
+    height: 255px;
+    width: 900px;
+    border-radius: 10%;
+    /* background: radial-gradient(blue, green,blue); */
+    animation: title 1s ease-in forwards;
 }
 
 #title{
-   
     font-family: videostar;
     font-weight: bold;
     font-size: 140px;
-    color: black;
-    text-shadow: 15px 15px white;   
-    height: 5px; 
+    color: red;
+    text-shadow: 15px 35px black;   
+     
 }
 
 #descriptbox{
-    height: 110px;
+    height: 120px;
     width: 600px;
-    background-color: black;
+    background: radial-gradient(white, black,white);
+    border-radius: 100%;
+}
+
+h1{
+    animation: titlemain 1s ease-in forwards;
 }
 
 p{
     letter-spacing: 2px;
     color:white;
-    text-shadow: 10px 8px black;
+    text-shadow: 3px 3px black;
     font-size: 30px;
     font-family: impact;
+    
 }
 
 #click{
