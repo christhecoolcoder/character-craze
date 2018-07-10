@@ -19,4 +19,4 @@ the welcome screen title animation resizes quickly which makes it a bit less flu
 I would like to add a score the is tracked across each page and adds or subracts as the player continues through the stages. as of now it just starts the next page with a preset score as if the player hasnt got any questions wrong.
 
 ## Sources: 
-https://gearoid.me/pokemon/
+https://christhecoolcoder.github.io/character-craze/
